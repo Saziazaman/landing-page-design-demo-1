@@ -1,0 +1,259 @@
+/*------------ All common CSS Start here ---------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* ------------- All common CSS end here ----------- */
+
+
+/* ----------- hero section Start -------------*/
+
+.heroSection{
+    background-image: url("../image/bg-section-traveler.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30vh;
+}
+.content h1{
+    font-size: 45px;
+    color: aqua;
+    padding-bottom: 10px;
+}
+.content p{
+    color: white;
+    font-size: 20px;
+}
+.button{
+    margin: 30px;
+}
+[class ^="btn-"]{
+    background-color: aqua;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 20px 10px;
+}
+.btn-2{
+    background-color: black;
+}
+[class ^= "btn-"]:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid aqua;
+}
+
+ /* ----------- hero section End -------------*/
+
+/* -----------  section -2 Start -------------*/
+
+.sec-2{
+    text-align: center;
+    padding: 70px 20px;
+}
+.sec-2 h1{
+    margin: 20px 0px;
+    color: aqua;
+}
+.sec-2 p{
+    line-height: 26px;
+    word-spacing: 1px;
+}
+
+/* -----------  section -2 End -------------*/
+
+
+/* -----------  section -3 Start -------------*/
+
+.sec-3{
+    display: flex;
+    padding: 20px;
+}
+.left{
+    width: 50%;
+}
+.sec-3 h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+.sec-3 p {
+    line-height: 26px;
+    word-spacing: 1px;
+    padding: 10px;
+}
+.sec-3 ul {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.sec-3 ul li {
+    padding: 5px;
+    list-style: none;
+}
+i.fa-solid.fa-check {
+    color: yellow;
+    padding: 5px;
+}
+a.btn-3 {
+    margin: 20px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+a.btn-3:hover{
+    color: aqua;
+}
+.right{
+    width: 50%;
+}
+
+/* -----------  section -3 End  -------------*/
+
+
+
+/* -----------  section -4 Start -------------*/
+
+.sec-4 {
+    text-align: center;
+    margin: 30px;
+}
+h2 {
+    margin: 30px;
+}
+.contaier-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+[class ^="box-"]{
+    background-color: rgb(253 248 248 / 86%);;
+    border: 1px solid gainsboro;
+    padding: 25px;
+}
+[class ^="box-"]
+img{
+    width: 25%;
+    padding: 10px;
+}
+h4 {
+    padding-bottom: 10px;
+}
+p {
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+a.btn-4 {
+    border-radius: 0px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+a.btn-4:hover{
+    color: aqua;
+}
+.image img{
+    width: 100%;
+
+}
+
+
+/* -----------  section -4 End -------------*/
+
+/* -----------  section -5 Start -------------*/
+
+
+.sec-5{
+    background-image: url("../image/slider1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 40vh;
+    padding: 15vh;
+    margin-top: 60px; 
+}
+h3 {
+    padding-bottom: 30px;
+    color: white;
+}
+
+a.btn-5 {
+    border-radius: 0px;
+}
+
+
+/* -----------  section -5 End -------------*/
+
+
+
+/* -----------  section -6 Start -------------*/
+
+
+.contaier-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.image{
+    border: 2px solid aqua;
+}
+.details{
+    padding: 20px;
+}
+a.btn-6 {
+   background-color: transparent;
+   color: aqua;
+   box-shadow: none;
+   border-radius: 20px;
+   border: 2px solid aqua; 
+}
+a.btn-6:hover{
+    background-color: aqua;
+    color: white;
+    box-shadow: 3px 3px 5px #aaaaaa;
+
+}
+
+/* -----------  section -6 End -------------*/
+
+
+
+/* -----------  section -7 Start -------------*/
+
+
+.sec-7{
+    text-align: center;
+    padding: 70px 20px;
+}
+.sec-7 h1{
+    margin: 20px 0px;
+}
+.sec-7 p{
+    line-height: 26px;
+    word-spacing: 1px;
+}
+
+
+/* -----------  section -7 End  -------------*/
+
+
+/* ---------- Fotter Section Start --------- */
+
+
+.fotter{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 10vh;
+}
+.fotter p {
+    padding: 10px 0px;
+}
+
+/* ---------- Fotter Section End  --------- */
